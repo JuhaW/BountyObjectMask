@@ -1,4 +1,6 @@
-import bpy, random 
+#Add 1 scene
+#delete all materials of scene objects
+import bpy, random
 
 def RemoveAllMaterials():
 	for obj in bpy.context.selected_editable_objects:
@@ -87,6 +89,3 @@ bpy.context.scene.bounty.AA_threshold = 0.003
 bpy.context.scene.bounty.gs_clay_render = False
 bpy.context.scene.bounty.gs_transp_shad = False
 bpy.context.scene.bounty.gs_z_channel = False
-
-
-
