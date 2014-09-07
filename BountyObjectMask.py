@@ -45,13 +45,6 @@ for ob in bpy.data.scenes[scn.name].objects:
 #remove all scene materials from objects
 RemoveAllMaterials()
 
-# b = bpy.context
-# c = 0
-# for obj in b.selected_editable_objects :
-    # if obj.type == 'MESH':
-        # c = c + 1
-# range = 1/(c-1)
-# value = 0
 
 #set random colors to all mesh objects
 for ob in bpy.context.selected_editable_objects:
