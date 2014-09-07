@@ -1,6 +1,7 @@
 #Add 1 scene
 #delete all materials of scene objects
 import bpy, random
+#REMARK
 
 def RemoveAllMaterials():
 	for obj in bpy.context.selected_editable_objects:
