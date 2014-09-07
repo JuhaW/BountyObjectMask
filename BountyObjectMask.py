@@ -91,3 +91,6 @@ bpy.context.scene.bounty.gs_clay_render = False
 bpy.context.scene.bounty.gs_transp_shad = False
 bpy.context.scene.bounty.gs_z_channel = False
 
+#World Background settings
+bpy.context.scene.world.bounty.bg_type = 'Single Color'
+bpy.context.scene.world.bounty.bg_use_ibl = False
