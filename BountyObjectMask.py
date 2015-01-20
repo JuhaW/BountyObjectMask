@@ -56,6 +56,7 @@ for ob in bpy.context.selected_editable_objects:
 		mat.bounty.diff_color.hsv = (r,1,1)
 		mat.diffuse_color = mat.bounty.diff_color
 		mat.bounty.emittance = 1
+		mat.bounty.specular_reflect = 0
 		ob.data.materials.append(mat)
 		#value = value + range
 		
